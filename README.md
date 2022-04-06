@@ -5,7 +5,8 @@ If you want to search for appointment only on specific locations say Lawrencevil
 location_arr = ['101','104']
 locationname_arr = ['Lawrenceville','Camden']
 
-
 if you want to be notified only when appt is available on specific month, for example only on "April" then update the required moths variable accordingly.
 required_months = ['April']
 
+NJDMV_R.py - works on raspberry pi  
+NJDMV.py - works on macbook (you may want to use cronjob to auto check for a defined frequency of time)
